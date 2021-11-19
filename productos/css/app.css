@@ -1,0 +1,178 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+body {
+    font-size: 1.8rem;
+    line-height: 2;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 3.8rem;
+}
+
+h3 {
+    font-size: 5rem;
+}
+a {
+    text-decoration: none;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+.btn {
+    background-color: #741d51;
+    color: #fff;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/*header*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header__heading span {
+    color: #741d51 ;
+}
+
+
+.hero {
+    background-image: url(/img/hero2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+    position: relative;
+}
+
+.hero__info {
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 8.5rem;
+    color: #fff;
+}
+
+/*barra*/
+.barra {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.bg__barra {
+    background-color: #741d51;
+    
+}
+
+.barra__imagen {
+    width: 30px;
+    height: 30px;
+    object-fit: fill;
+}
+
+.barra__icono {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.barra__texto {
+    color: #fff;
+}
+
+/*productps*/
+
+.productos__grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+
+.producto__card {
+    background-color: #e1e1e1;
+    padding: 1rem;
+}
+.producto__imagen {
+    width: 100%;
+    height: 227px;
+}
+.producto__info {
+    padding: 2rem;
+}
+
+.producto__empresa {
+    color: #741d51;
+}
+.producto__heading,
+.producto__empresa {
+    margin: 0;
+}
+.producto__estrellas {
+    margin-bottom: 2rem;
+}
+
+.producto__enlaces {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*footer*/
+.nosotros__heading {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 2rem;
+    border-top: 1px solid #741d51;
+    padding: 3rem;
+}
+
+.nosotros {
+    margin: 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.nosotros__imagen {
+    width: 100%rem;
+}
+
+/*empresa*/
+
+.empresa__info {
+    padding: 2rem;
+}
